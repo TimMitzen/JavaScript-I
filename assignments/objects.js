@@ -43,7 +43,10 @@ const example = {
     "id": 2,
     "name": "Kennan",
     "email": "kdiben1@tinypic.com",
-    "gender": "M"
+    "gender": "M",
+    speak: function(){
+      console.log(`Hello, my name is ${"name"}`)
+    }
   }
 
   const kevin = {
@@ -51,9 +54,7 @@ const example = {
     "name": "Kevin",
     "email": "kmummery2@wikimedia.org",
     "gender": "M",
-    speak: function(){
-      console.log(`Hello, my name is ${"name"}`)
-    }
+    
   }
 
   const gannie = {
